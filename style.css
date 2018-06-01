@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  text-align: center;
+}
+
+#month {
+  text-align: center;
+}
+
+.dayHeaders {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dayHeaders > div {
+  width: 220px;
+}
+
+.dayHeaders > div > p {
+  text-align: center;
+}
+
+.dayHeader {
+  border-style: solid none none solid;
+  border-width: 1.8px;
+}
+
+#satHeader {
+  border-style: solid solid none solid;
+  border-width: 1.8px;
+}
+
+.weekRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dayBox {
+  height: 170px;
+  width: 220px;
+  border: 1px solid black;
+}
+
+.numberBox {
+  height: 30px;
+  width: 30px;
+  border-style: none solid solid none;
+  border-width: 1px;
+}
+
+.dayNumber {
+  font-size: 22px;
+  font-weight: 300;
+}
